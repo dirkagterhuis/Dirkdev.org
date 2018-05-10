@@ -6,4 +6,3 @@ trigger Accounts on Account (before update, after update) {
  	if (Trigger.IsUpdate && Trigger.isAfter)
         handler.afterUpdate();
 }
-// woohoo

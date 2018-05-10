@@ -1,0 +1,158 @@
+[
+    {
+        "id": "ApexClass",
+        "type": {
+            "directoryName": "classes",
+            "inFolder": false,
+            "metaFile": true,
+            "suffix": "cls",
+            "xmlName": "ApexClass"
+        },
+        "title": "ApexClass",
+        "xmlName": "ApexClass",
+        "text": "ApexClass",
+        "key": "ApexClass",
+        "level": 1,
+        "hasChildTypes": false,
+        "isFolder": true,
+        "inFolder": false,
+        "cls": "folder",
+        "select": false,
+        "expanded": false,
+        "children": [
+            {
+                "createdById": "0051r000008BxQxAAK",
+                "createdByName": "admin",
+                "createdDate": "2018-04-23T09:48:14.000Z",
+                "fileName": "classes/AccountHandlerTest.cls",
+                "fullName": "AccountHandlerTest",
+                "id": "ApexClass.AccountHandlerTest",
+                "lastModifiedById": "0051r000008CbW4AAK",
+                "lastModifiedByName": "Dirk Agterhuis",
+                "lastModifiedDate": "2018-04-25T11:21:19.000Z",
+                "manageableState": "unmanaged",
+                "type": "ApexClass",
+                "leaf": true,
+                "title": "AccountHandlerTest",
+                "checked": false,
+                "text": "AccountHandlerTest",
+                "cls": "",
+                "level": 2,
+                "isFolder": false,
+                "children": [],
+                "select": false
+            }
+        ]
+    },
+    {
+        "id": "ApexComponent",
+        "type": {
+            "directoryName": "components",
+            "inFolder": false,
+            "metaFile": true,
+            "suffix": "component",
+            "xmlName": "ApexComponent"
+        },
+        "title": "ApexComponent",
+        "xmlName": "ApexComponent",
+        "text": "ApexComponent",
+        "key": "ApexComponent",
+        "level": 1,
+        "hasChildTypes": false,
+        "isFolder": true,
+        "inFolder": false,
+        "cls": "folder",
+        "select": false,
+        "expanded": false,
+        "children": []
+    },
+    {
+        "id": "ApexPage",
+        "type": {
+            "directoryName": "pages",
+            "inFolder": false,
+            "metaFile": true,
+            "suffix": "page",
+            "xmlName": "ApexPage"
+        },
+        "title": "ApexPage",
+        "xmlName": "ApexPage",
+        "text": "ApexPage",
+        "key": "ApexPage",
+        "level": 1,
+        "hasChildTypes": false,
+        "isFolder": true,
+        "inFolder": false,
+        "cls": "folder",
+        "select": false,
+        "expanded": false,
+        "children": []
+    },
+    {
+        "id": "ApexTrigger",
+        "type": {
+            "directoryName": "triggers",
+            "inFolder": false,
+            "metaFile": true,
+            "suffix": "trigger",
+            "xmlName": "ApexTrigger"
+        },
+        "title": "ApexTrigger",
+        "xmlName": "ApexTrigger",
+        "text": "ApexTrigger",
+        "key": "ApexTrigger",
+        "level": 1,
+        "hasChildTypes": false,
+        "isFolder": true,
+        "inFolder": false,
+        "cls": "folder",
+        "select": false,
+        "expanded": false,
+        "children": [
+            {
+                "createdById": "0051r000008CbW4AAK",
+                "createdByName": "Dirk Agterhuis",
+                "createdDate": "2018-04-25T11:30:19.000Z",
+                "fileName": "triggers/Accounts.trigger",
+                "fullName": "Accounts",
+                "id": "ApexTrigger.Accounts",
+                "lastModifiedById": "0051r000008CbW4AAK",
+                "lastModifiedByName": "Dirk Agterhuis",
+                "lastModifiedDate": "2018-04-25T12:09:43.000Z",
+                "manageableState": "unmanaged",
+                "type": "ApexTrigger",
+                "leaf": true,
+                "title": "Accounts",
+                "checked": false,
+                "text": "Accounts",
+                "cls": "",
+                "level": 2,
+                "isFolder": false,
+                "children": [],
+                "select": false
+            }
+        ]
+    },
+    {
+        "id": "StaticResource",
+        "type": {
+            "directoryName": "staticresources",
+            "inFolder": false,
+            "metaFile": true,
+            "suffix": "resource",
+            "xmlName": "StaticResource"
+        },
+        "title": "StaticResource",
+        "xmlName": "StaticResource",
+        "text": "StaticResource",
+        "key": "StaticResource",
+        "level": 1,
+        "hasChildTypes": false,
+        "isFolder": true,
+        "inFolder": false,
+        "cls": "folder",
+        "select": false,
+        "expanded": false,
+        "children": []
+    }
+]

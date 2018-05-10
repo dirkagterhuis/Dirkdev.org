@@ -1,0 +1,17 @@
+{
+    "projectName": "Dirkdev training org",
+    "username": "dagterhuis@dirkdev.org",
+    "id": "b01efc60-487e-11e8-bd9f-9d98638a4e8f",
+    "namespace": "",
+    "orgType": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "instanceUrl": "https://eu12.salesforce.com",
+    "workspace": "/Users/guidion/Documents",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

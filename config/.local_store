@@ -1,0 +1,58 @@
+{
+    "AccountHandler.cls": {
+        "createdById": "0051r000008BxQxAAK",
+        "createdByName": "admin",
+        "createdDate": "2018-05-02T11:30:21.000Z",
+        "fileName": "unpackaged/classes/AccountHandler.cls",
+        "fullName": "AccountHandler",
+        "id": "01p1r00000Bda6uAAB",
+        "lastModifiedById": "0051r000008BxQxAAK",
+        "lastModifiedByName": "admin",
+        "lastModifiedDate": "2018-05-02T12:09:06.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "OpportunityHandlerTest.cls": {
+        "createdById": "0051r000008BxQxAAK",
+        "createdByName": "admin",
+        "createdDate": "2018-05-04T10:59:07.000Z",
+        "fileName": "unpackaged/classes/OpportunityHandlerTest.cls",
+        "fullName": "OpportunityHandlerTest",
+        "id": "01p1r00000By9aIAAR",
+        "lastModifiedById": "0051r000008BxQxAAK",
+        "lastModifiedByName": "admin",
+        "lastModifiedDate": "2018-05-04T11:07:49.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "AccountHandlerTest.cls": {
+        "createdById": "0051r000008BxQxAAK",
+        "createdByName": "admin",
+        "createdDate": "2018-04-23T09:48:14.000Z",
+        "fileName": "unpackaged/classes/AccountHandlerTest.cls",
+        "fullName": "AccountHandlerTest",
+        "id": "01p1r00000Ao0uuAAB",
+        "lastModifiedById": "0051r000008BxQxAAK",
+        "lastModifiedByName": "admin",
+        "lastModifiedDate": "2018-05-02T12:11:42.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexClass",
+        "mmState": "clean"
+    },
+    "Accounts.trigger": {
+        "createdById": "0051r000008CbW4AAK",
+        "createdByName": "Dirk Agterhuis",
+        "createdDate": "2018-04-25T11:30:19.000Z",
+        "fileName": "unpackaged/triggers/Accounts.trigger",
+        "fullName": "Accounts",
+        "id": "01q1r000000eYV0AAM",
+        "lastModifiedById": "0051r000008BxQxAAK",
+        "lastModifiedByName": "admin",
+        "lastModifiedDate": "2018-05-02T11:49:15.000Z",
+        "manageableState": "unmanaged",
+        "type": "ApexTrigger",
+        "mmState": "clean"
+    }
+}

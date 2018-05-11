@@ -50,9 +50,6 @@ public with sharing class OpportunityHandler {
 		insert workOrdersToBeCreated;		
 	}	
 }
-<<<<<<< HEAD
 // dirk is een baas, dit staat in branch 'assignment2' of niet
 // helahola
-=======
-// dirk is een baas, dit staat in branch 'assignment2'
->>>>>>> e2fb5b34ad925b3c94dfee34e5791f79899203b9
+// dit is de meest recente toevoeging

@@ -50,4 +50,7 @@ public with sharing class OpportunityHandler {
 		insert workOrdersToBeCreated;		
 	}	
 }
-// dirk is een baas, dit staat in branch 'assignment2'
+// dirk is een baas, dit staat in branch 'assignment2' of niet
+// helahola
+// dit is de meest recente toevoeging
+// he leo, negeer de 3 regels hierboven en check deze hele class! 

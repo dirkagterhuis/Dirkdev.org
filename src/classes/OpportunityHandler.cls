@@ -53,4 +53,4 @@ public with sharing class OpportunityHandler {
 // dirk is een baas, dit staat in branch 'assignment2' of niet
 // helahola
 // dit is de meest recente toevoeging
-// he leo, negeer de 3 regels hierboven en check deze hele class! 
+// he leo, negeer de 3 regels hierboven en check deze hele class!

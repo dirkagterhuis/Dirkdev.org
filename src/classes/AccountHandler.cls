@@ -1,4 +1,4 @@
-public with sharing class AccountHandler {
+public with sharing class AccountHandler extends TriggerHandler {
     
     List<Account> newAccounts;
     Map<Id, Account> oldAccountsMap;
@@ -8,11 +8,11 @@ public with sharing class AccountHandler {
         this.oldAccountsMap = triggerOldMap;
     }
     
-    public void beforeUpdate() {
+    public override void beforeUpdate() {
         
     }
     
-    public void afterUpdate() {
+    public override void afterUpdate() {
         closeOpportunitiesForInactiveAccounts();
     }
     

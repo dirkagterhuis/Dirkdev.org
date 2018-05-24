@@ -19,10 +19,9 @@ private class AccountHandlerTest {
     
     @TestSetup
     static void setup() { 
-    	Account a = new Account(Name = 'Westeros Inc', Active__c = 'Yes');
+        Account a = (Account)TestFactory.createSObject(new Account());
         insert a;
-        Opportunity o = new Opportunity(Name = 'Wholesale Dragon Leather Cloak', StageName = 'New', AccountId = a.Id, CloseDate = System.today());
+        Opportunity o = (Opportunity)TestFactory.createSObject(new Opportunity(AccountId = a.Id));
         insert o;
     }
 }
-// Leo is een baas

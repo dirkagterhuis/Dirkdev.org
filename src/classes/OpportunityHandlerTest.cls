@@ -12,14 +12,10 @@ private class OpportunityHandlerTest {
     
     @TestSetup
     private static void setup() {
-        Account a = new Account(Name = 'Westeros Inc', Active__c = 'Yes');
+        Account a = (Account)TestFactory.createSObject(new Account());
         insert a;
-        insert new Opportunity(Name = 'Wholesale Dragon Leather Cloak', 
-                               StageName = 'New', 
-                               AccountId = a.Id, 
-                               CloseDate = System.today(),
-                               Type = 'Installation'
-        );
+        Opportunity o = (Opportunity)TestFactory.createSObject(new Opportunity(AccountId = a.Id, type = 'installation'));
+        insert o;
     }
     
 }

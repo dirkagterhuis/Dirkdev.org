@@ -117,7 +117,8 @@ public class TestFactory {
 	public class AccountDefaults implements FieldDefaults {
 		public Map<Schema.SObjectField, Object> getFieldDefaults() {
 			return new Map<Schema.SObjectField, Object> {
-				Account.Name => 'Test Account'
+				Account.Name => 'Westeros Inc',
+				Account.Active__c => 'Yes'
 			};
 		}
 	}
@@ -134,10 +135,9 @@ public class TestFactory {
 	public class OpportunityDefaults implements FieldDefaults {
 		public Map<Schema.SObjectField, Object> getFieldDefaults() {
 			return new Map<Schema.SObjectField, Object> {
-				Opportunity.Name => 'Test Opportunity',
-				Opportunity.StageName => 'Closed Won',
-				Opportunity.CloseDate => System.today()
-			};
+				Opportunity.Name => 'Wholesale Dragon Leather Cloak',
+				Opportunity.StageName => 'New',
+				Opportunity.CloseDate => System.today()			};
 		}
 	}
 

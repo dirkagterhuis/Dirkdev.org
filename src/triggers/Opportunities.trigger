@@ -1,6 +1,3 @@
-trigger Opportunities on Opportunity (after update) {
-    OpportunityHandler handler = new OpportunityHandler(Trigger.new, Trigger.oldMap);
-    
- 	if (Trigger.IsUpdate && Trigger.isAfter)
-        handler.afterUpdate();
+trigger Opportunities on Opportunity (before insert, after update) {
+    new OpportunityHandler(Trigger.new, Trigger.oldMap).run();
 }

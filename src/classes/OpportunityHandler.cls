@@ -1,4 +1,4 @@
-public with sharing class OpportunityHandler {
+public with sharing class OpportunityHandler extends TriggerHandler {
     
     List<Opportunity> newOpportunities;
     Map<Id, Opportunity> oldOpportunitiesMap;
@@ -8,11 +8,11 @@ public with sharing class OpportunityHandler {
         this.oldOpportunitiesMap = triggerOldMap;
     }
     
-    public void beforeUpdate() {
+    public override void beforeUpdate() {
         
     }
     
-    public void afterUpdate() {
+    public override void afterUpdate() {
         createCasesAndWorkOrdersForClosedWonOpportunities();
     }
 
@@ -50,4 +50,3 @@ public with sharing class OpportunityHandler {
 		insert workOrdersToBeCreated;		
 	}	
 }
-// dirk is een baas, dit staat in branch 'assignment2'
